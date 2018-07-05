@@ -82,6 +82,7 @@ GameObject:
   - component: {fileID: 114564575498600612}
   - component: {fileID: 114229474926384554}
   - component: {fileID: 114172313904123366}
+  - component: {fileID: 114638395904547238}
   m_Layer: 0
   m_Name: FreeCar
   m_TagString: Untagged
@@ -450,8 +451,19 @@ MonoBehaviour:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 100008}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1736b78745494656ab02afb4aa03408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114638395904547238
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09c483a0b96c64260b8a9d7886d01c13, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
